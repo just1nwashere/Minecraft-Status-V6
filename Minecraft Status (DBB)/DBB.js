@@ -1,3 +1,4 @@
+//Made By 💖 Just1N INC.
 const { AoiClient, LoadCommands } = require("aoi.js");
 const { AoiVoice, PlayerEvents, PluginName, Cacher, Filter } = require("@akarui/aoi.music");
 const Gamedig = require('gamedig');
@@ -17,6 +18,7 @@ const bot = new AoiClient({
         }
     }
 });
+//Game.query Host Kısmına Minecraft Sunucunuzu Giriniz o Zaten Kendi Kendine Açılacaktır. Made By 💖 Just1N INC.
 Gamedig.query({
     type: 'minecraft',
     host: 'mc.example.com',
@@ -28,16 +30,17 @@ Gamedig.query({
 }).catch((error) => {
     console.log("Sunucu Kapalı");
 });
+//Made By 💖 Just1N INC.
 bot.status({
     text: "Discord Botçularla Beraber Savaşıyor...",
     type: "PLAYİNG",
     time: 12
 });
+//Made By 💖 Just1N INC.
 const { Util } = require("aoi.js");
 const { setup } = require("aoi.parser");
 setup(Util);
+//Made By 💖 Just1N INC.
 const loader = new LoadCommands(bot);
 loader.load(bot.cmd, "./Minecraft Botu (DBB)/Komutlar/");
-bot.variables({
-    minecraft: ""
-});
+//Made By 💖 Just1N INC.
